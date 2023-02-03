@@ -58,8 +58,40 @@ body {
 
 .container {
     width: 960px;
-    margin: auto;
-    background-color: #fff;
+    margin: 80px auto;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    padding: 5px;
+    padding-bottom: 0px;
+    background-color: aliceblue;
+    border-bottom: 3px solid lightblue;
+    z-index: 9999;
+}
+
+.top-bar .page {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.twitter {
+    width: 200px;
+    height: 200px;
+    background-image: url(Twitter.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -22px;
+    right: -27px;
+
 }
 
 .header {
@@ -80,12 +112,12 @@ body {
 
 .header a {
     text-decoration: none;
-    color: salmon;
+    color: deepskyblue;
     padding: 3px;
 }
 
 .header a:hover {
-    background-color: lightskyblue;
+    background-color: dodgerblue;
     color: white;
 }
 
@@ -94,9 +126,9 @@ body {
     height: 320px;
     background-image: url(hero.png);
     background-size: cover;
-    background-position: 0 -150px;
-    border-top: 5px solid lightskyblue;
-    border-bottom: 5px solid salmon;
+    background-position: 0 -100px;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid lightskyblue;
 }
 
 
@@ -118,7 +150,7 @@ body {
 }
 
 .main .penulis a {
-    color: salmon;
+    color: deepskyblue;
     text-decoration: none;
 }
 
